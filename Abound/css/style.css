@@ -1,12 +1,33 @@
 html {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
 a, img { border:none;} /*remove borders around image links on IE*/
 .spacer {background-image:url(images/spacer.gif);}
+body {
+background-color:#fff;
+}
+.outerWrapper {
+	width:945px;
+	margin:auto;
+}
+
 #header {float:left; width:100%; margin-bottom:15px; margin-top:15px;}
 #header h1 {font-size:28px; display:inline; font-weight:normal; color:#848484;}
 #header h1 strong {font-weight:normal; color:#368DD5;}
 #header-nav {float:right; font-family:Arial, Helvetica, sans-serif; font-size:10px;}
 #header-nav a {text-decoration:none; font-size:10px; color:#000;}
 #header-nav a:hover {color:#ccc;}
+
+
+#logo a {
+margin-top:-20px;
+float:left;
+}
+.light {
+margin-left:35px;
+}
+
+.light form {
+float:right;
+}
 
 #main-nav {
     -webkit-backface-visibility: hidden;
@@ -19,6 +40,10 @@ a, img { border:none;} /*remove borders around image links on IE*/
 #main-nav div a {position:relative; display:block; margin:10; padding:5px 60px 5px 10px; width:200px; white-space:nowrap; text-align:left; text-decoration:none; background-color:#fff; color:#000; font:12px arial;}
 #main-nav > li:hover > a {border-bottom: 5px solid #3489d1;}
 #main-nav div a:hover {color: #3489d1;}
+
+
+
+
 
 .tabs {margin:0; padding:0; z-index:40;position: absolute;}
 .tabs li {margin:0; padding:0; list-style:none; float:left; font: bold 12px arial;}
@@ -352,9 +377,9 @@ input[type=button], input[type=button]:hover {
 /* preload images */
 body:after
 {
-  content: url(../media/images/banners/01.jpg) url(../media/images/banners/01-hover.jpg) url(../media/images/banners/02.jpg) url(../media/images/banners/02-hover.jpg) url(../media/images/banners/04.jpg) url(../media/images/banners/04-hover.jpg);
+ /* content: url(../media/images/banners/01.jpg) url(../media/images/banners/01-hover.jpg) url(../media/images/banners/02.jpg) url(../media/images/banners/02-hover.jpg) url(../media/images/banners/04.jpg) url(../media/images/banners/04-hover.jpg);
   display: none;
-}
+} */
 
 /* additional CSS code for video slider */
 #slider-1 {
