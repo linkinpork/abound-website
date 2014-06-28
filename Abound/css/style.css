@@ -3,10 +3,12 @@ a, img { border:none;} /*remove borders around image links on IE*/
 .spacer {background-image:url(images/spacer.gif);}
 body {
 background-color:#fff;
+
 }
 .outerWrapper {
 	width:945px;
 	margin:auto;
+	
 }
 
 #header {float:left; width:100%; margin-bottom:15px; margin-top:15px;}
@@ -28,6 +30,7 @@ margin-left:35px;
 .light form {
 float:right;
 }
+
 
 #main-nav {
     -webkit-backface-visibility: hidden;

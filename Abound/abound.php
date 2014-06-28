@@ -7,13 +7,20 @@
 	  <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Abound | CCIC</title>
+	  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
       <meta name ="description" content="Abound is a CCIC-SJ English ministry for young adults whose purpose is to live and love like Jesus through the power of the gospel.">
       <link rel="stylesheet" href="css/style.css">
    </head>
-   <body>
+   <body>   
       <div class="outerWrapper">
-         <div id="header">
+	    <div id="header">
          </div>
+		 
+		 
+		 
+		 
+		 
+		 
          <!-- Header Navigation -->
          <div id="logo">
            <a href="http://www.ccic-sj.org/english/new-site/index.php"><img src="img/ccic-eng-logo.jpg"></a>
@@ -99,7 +106,7 @@
                   </li>
                </ul>
             </div>
-         </div>
+
          <!-- Main Navigation -->
          <hr class="style-fade-50-black">
          <div style="float:left;margin-left: 10px;;height: 1000px;">
@@ -134,11 +141,17 @@
                <a href="http://www.ccic-sj.org/english/new-site/aboutus.php">About Us</a>
             </div>
          </div>
+	</div>
          <!-- Footer -->
-      </div>
+     
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
       <script src="./js/menu.js" type="text/javascript"></script> <!-- nav menu  -->
+	  
+	  <!-- Insert Google Analytics below -->
+	  
+	  
       <!-- END outer wrapper -->
+	   </div>
    </body>
 </html>

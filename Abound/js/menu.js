@@ -14,12 +14,15 @@ function mopen(id)
 	// get new layer and show it
 	ddmenuitem = document.getElementById(id);
 	ddmenuitem.style.visibility = 'visible';
+	  
 
 }
 // close showed layer
 function mclose()
 {
-	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	if(ddmenuitem) 
+	{ddmenuitem.style.visibility = 'hidden';
+	}
 }
 
 // go close timer
